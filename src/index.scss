@@ -1,0 +1,65 @@
+@import "../asset/font/iconfont.css";
+@import "../asset/style/common.scss";
+#content {
+    .line1 {
+        margin-top: 15px;
+        overflow: hidden;
+        > .col1 {
+            width: 299px;
+            height: 407px;
+            border: #ddd solid 1px;
+            float: left;
+        }
+        > .col2 {
+            width: 517px;
+            height: 407px;
+            border: #ddd solid 1px;
+            float: left;
+            margin-left: 15px;
+        }
+        > .col3 {
+            width: 299px;
+            height: 407px;
+            border: #ddd solid 1px;
+            float: left;
+            margin-left: 15px;
+        }
+        :after {
+            clear: both;
+        }
+    }
+    .line2 {
+        margin-top: 15px;
+        overflow: hidden;
+        > .col1 {
+            width: 299px;
+            height: 407px;
+            border: #ddd solid 1px;
+            float: left;
+        }
+        > .col2 {
+            width: 833px;
+            height: 407px;
+            border: #ddd solid 1px;
+            float: left;
+            margin-left: 15px;
+        }
+    }
+    .line3 {
+        margin-top: 15px;
+        overflow: hidden;
+        > .col1 {
+            width: 566px;
+            height: 311px;
+            border: #ddd solid 1px;
+            float: left;
+        }
+        > .col2 {
+            width: 565px;
+            height: 311px;
+            border: #ddd solid 1px;
+            float: left;
+            margin-left: 15px;
+        }
+    }
+}

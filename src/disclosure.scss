@@ -1,0 +1,15 @@
+@import "../asset/font/iconfont.css";
+@import "../asset/style/common.scss";
+
+#content {
+    & > .search {
+        > div {
+            width: 300px;
+            float: left;
+            select {
+                width: 100px;
+            }
+        }
+        overflow: hidden;
+    }
+}

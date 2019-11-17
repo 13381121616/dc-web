@@ -1,0 +1,79 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "677569",
+      "name": "放大镜",
+      "font_class": "fangdajing",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "681206",
+      "name": "圆点中",
+      "font_class": "yuandianzhong",
+      "unicode": "e758",
+      "unicode_decimal": 59224
+    },
+    {
+      "icon_id": "689324",
+      "name": "圆点小",
+      "font_class": "yuandianxiao",
+      "unicode": "e82f",
+      "unicode_decimal": 59439
+    },
+    {
+      "icon_id": "689325",
+      "name": "圆点中",
+      "font_class": "yuandianzhong1",
+      "unicode": "e830",
+      "unicode_decimal": 59440
+    },
+    {
+      "icon_id": "795506",
+      "name": "扫描二维码",
+      "font_class": "saomiaoerweima",
+      "unicode": "e666",
+      "unicode_decimal": 58982
+    },
+    {
+      "icon_id": "1250958",
+      "name": "扫描二维码",
+      "font_class": "saomiaoerweima1",
+      "unicode": "e66c",
+      "unicode_decimal": 58988
+    },
+    {
+      "icon_id": "1800706",
+      "name": "放大镜",
+      "font_class": "magnifier",
+      "unicode": "e64d",
+      "unicode_decimal": 58957
+    },
+    {
+      "icon_id": "4298042",
+      "name": "扫描二维码off",
+      "font_class": "saomiaoerweimaoff",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "5802479",
+      "name": "放大镜",
+      "font_class": "Magnifier",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    },
+    {
+      "icon_id": "9520840",
+      "name": "单色圆点",
+      "font_class": "danseyuandian",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    }
+  ]
+}
