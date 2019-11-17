@@ -1,7 +1,8 @@
 {
   "name": "dc-web",
   "version": "1.0.0",
-  "description": "",
+  "description": "dc-web",
+  "repository": "git@github.com:13381121616/dc-web.git",
   "main": "index.js",
   "scripts": {
     "build": "webpack  --config  webpack.prod.js",
@@ -12,7 +13,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "jquery": "^3.4.1"
+    "bootstrap": "^4.3.1",
+    "echarts": "^4.4.0",
+    "jquery": "^3.4.1",
+    "papaparse": "^4.5.0",
+    "popper.js": "^1.14.7"
   },
   "devDependencies": {
     "autoprefixer": "^9.7.1",

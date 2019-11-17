@@ -3,9 +3,17 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const ProgressBarPlugin = require('progress-bar-webpack-plugin');
 const chalk = require('chalk');
-const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 const webpack = require('webpack');
 module.exports = {
+    entry: {
+        index: './src/index.js',
+        disclosure: './src/disclosure.js',
+        echarts: './src/echarts.js'
+    },
+    output: {
+        filename: '[name].js',
+        path: __dirname + '/dist'
+    },
     mode: 'development',
     devtool: 'inline-source-map',
     devServer: {
@@ -13,6 +21,7 @@ module.exports = {
         compress: true,
         port: 9000
     },
+
     optimization: {
         splitChunks: {
             chunks: 'async',
@@ -37,14 +46,7 @@ module.exports = {
             name: 'manifest'
         }
     },
-    entry: {
-        index: './src/index.js',
-        disclosure: './src/disclosure.js',
-    },
-    output: {
-        filename: '[name].js',
-        path: __dirname + '/dist'
-    },
+
     module: {
         rules: [
             {
@@ -101,13 +103,18 @@ module.exports = {
             template: 'html/disclosure.html',
             chunks: ['manifest', 'disclosure']
         }),
-
+        new HtmlWebpackPlugin({
+            name: 'echarts',
+            title: 'echarts图标学习',
+            filename: 'echarts.html',
+            template: 'html/echarts.html',
+            chunks: ['manifest', 'echarts']
+        }),
         new webpack.NamedModulesPlugin(),
         new webpack.HotModuleReplacementPlugin(),
         new ProgressBarPlugin({
             format: chalk.green('Progressing') + '[:bar]' + chalk.green(':percent') + '(:elapsed seconds)',
             clear: false
-        }),
-        // new BundleAnalyzerPlugin()
+        })
     ],
 }
