@@ -3,6 +3,13 @@ body {
     margin: 0;
     padding: 0;
 }
+a:hover,
+a:visited,
+a:link,
+a:active {
+    text-decoration: none;
+    // color: rgba(0, 172, 172, 1);
+}
 #content {
     margin: 0 auto;
     width: 1155px;
